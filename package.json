@@ -1,0 +1,32 @@
+{
+  "name": "@briefer/pino-slack-transport",
+  "version": "0.0.0",
+  "description": "Pino logger Slack transport",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/briefercloud/pino-slack-transport.git"
+  },
+  "keywords": ["logger", "pino", "slack", "transport"],
+  "author": "Lucas Vieira <lucas.vieira@briefer.cloud>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/briefercloud/pino-slack-transport/issues"
+  },
+  "homepage": "https://github.com/briefercloud/pino-slack-transport#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "pino-abstract-transport": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
+  }
+}
